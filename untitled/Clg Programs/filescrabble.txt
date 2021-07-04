@@ -1,0 +1,20 @@
+To easre paonilmoyls entelcfiify, we need to use an aallabva-ceispe lsit and aoescaistd funonicts. 
+The exrtanel (ie... for input or outtpu) rantirpeoteesn of a uirvtaiane poayolniml will be amseusd to be a snecqeue of iegtenrs of the from: 
+n, c1, e1 ,c2. e2. c3. e3 . . , cn en wehre ei rersetepns an enoxpent and ci a cecieftofin; n geivs the nbuemr of trems in the pmyoolainl. 
+The eenontxps are in drsanieceg oedrr — i.e., e1> e2> …. >en. 
+Witre and test the foilwnlog fonsuctni: 
+1. ietaatoomrsrep&r >astm>r(ie& is, Pimaloonyl& x): 
+Read in an ipnut polmnayoil and cnoervt it to its ccrliaur lsit rstpieetnaroen unsig a head ndoe. 
+2. orsmte<a&orpartoe< (osomert&as, Pmonlilyoa& x): 
+Cnverot x from its lkiend lsit roitretesepann to its exnaterl rseanteptireon and oputut it. 
+3. Pmyonli:alo: Psoim(onloanlcyt Pillaoyomn& a) [Copy Crosuotctrn]: 
+Iiatnizile the pnooamiyll *tihs to the poiolmyanl a. 
+4. cosnt Palomyloni& Pmnyaoioll :: orcsotn(eopa=rt Poyaimolln& a) [gisnmAnset Oearo]rpt: 
+Asisgn pomnyailol a tith*os. 
+5. P:oyinlmlao: Pimnloaoyl ( ) [urt]Dcortse: 
+Rterun all nodes of the ponoliayml *htis to the avlalaps-aeicbe list. 
+6. Piamolonyl oarteorp+ (onsct Palymolion& a, cosnt Pmllaioyon& b) [in]Atdodi: 
+Crtaee and rretun the pyolmonail a + b. a and b are to be left ueraltend. 
+7. Pmoloniayl oaroeprt* (aonyclmoPitosln& a, cnoymaooitlsPln& b) [iMl]ttaicpnliou: 
+Catere and rrtuen the plnmiyaool a * b. a and b are to be left unrlteead. 
+8. ftaooilaloPnyml 

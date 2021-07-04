@@ -1,0 +1,20 @@
+To erase polynomials efficiently, we need to use an available-space list and associated functions.
+The external (i.e.. for input or output) representation of a univariate polynomial will be assumed to be a sequence of integers of the form:
+n, c1, e1 ,c2. e2. c3. e3 . . , cn en where ei represents an exponent and ci a coefficient; n gives the number of terms in the polynomial.
+The exponents are in decreasing order — i.e., e1> e2> …. >en.
+Write and test the following functions:
+1. istream&operator >>(istream& is, Polynomial& x):
+Read in an input polynomial and convert it to its circular list representation using a head node.
+2. ostream&operator<< (ostream&os, Polynomial& x):
+Convert x from its linked list representation to its external representation and output it.
+3. Polynomial:: Polynomial(const Polynomial& a) [Copy Constructor]:
+Initialize the polynomial *this to the polynomial a.
+4. const Polynomial& Polynomial :: operator=(const Polynomial& a) [Assignment Operator]:
+Assign polynomial a to*this.
+5. Polynomial:: Polynomial ( ) [Destructor]:
+Return all nodes of the polynomial *this to the available-space list.
+6. Polynomial operator+ (const Polynomial& a, const Polynomial& b) [Addition]:
+Create and return the polynomial a + b. a and b are to be left unaltered.
+7. Polynomial operator* (constPolynomial& a, constPolynomial& b) [Multiplication]:
+Create and return the polynomial a * b. a and b are to be left unaltered.
+8. floatPolynomial
